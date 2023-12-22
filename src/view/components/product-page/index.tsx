@@ -16,7 +16,6 @@ import { OtherProduct } from "./otherProduct";
 import * as api from "../../../services/product-page/api";
 import * as productFunction from "../../../services/product-page/productFunction";
 import { CompareProduct } from "./compareProduct";
-import { useMoreThenMediaQuery } from "../../hooks/media-query";
 
 export const ProductPage: FC = () => {
   const product = useSelector(productSelector);
